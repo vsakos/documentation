@@ -36,7 +36,7 @@ new :sup:`Wallet` ( privateKey [ , provider ] )
 
 .. _fromEncryptedJson:
 
-:sup:`Wallet` . fromEncryptedJson ( json, password [ , progressCallback ] ) |nbsp| :sup:`=>` |nbsp| :sup:`Wallet`
+:sup:`Wallet` . fromEncryptedJson ( json, password [ , progressCallback ] ) |nbsp| :sup:`=>` |nbsp| :sup:`Promise<Wallet>`
     Decrypt an encrypted Secret Storage `JSON Wallet`_ (from Geth, parity, Crowdsale
     tools, or that was created using *prototype.encrypt* )
 
